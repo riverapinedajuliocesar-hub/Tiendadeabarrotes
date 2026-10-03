@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<link rel="stylesheet" href="style.css">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Esquina | Abarrotes y Más</title>
+
+</head>
+<body>
+<div class="top">🛒 OFERTAS DE LA SEMANA · Ahorra en productos seleccionados · Pedidos y entregas locales</div>
+<header><div class="nav">
+<a class="logo" href="#inicio">La Esquina <span>+</span></a>
+<nav>
+<a href="#inicio">Inicio</a>
+<div class="drop"><button>Categorías ▾</button><div class="dropmenu">
+<a href="#productos">🥫 Abarrotes</a><a href="#productos">🥛 Lácteos</a><a href="#productos">🥤 Bebidas</a><a href="#productos">🧹 Limpieza</a><a href="#productos">🍪 Dulces y snacks</a><a href="#productos">🧴 Cuidado personal</a>
+</div></div>
+<a href="#ofertas">Ofertas</a><a href="#marcas">Marcas</a><a href="#nosotros">Nosotros</a><a href="#equipo">Empleados</a><a href="#facturacion">Facturación</a><a href="#contacto">Contacto</a>
+</nav>
+<button class="btn primary" onclick="showToast('🛒 Carrito: listo para agregar productos')">🛒 Carrito</button>
+</div></header>
+
+<main>
+<section class="hero" id="inicio"><div class="hero-inner">
+<div><div class="kicker">Abarrotería de barrio · Honduras</div><h1>Todo lo que necesitas, cerca de casa.</h1><p>Bienvenido a La Esquina, una tienda de abarrotes pensada para compras rápidas, productos esenciales, promociones semanales y atención cercana.</p><div class="actions"><a class="btn primary" href="#productos">Ver productos →</a><a class="btn outline" href="#ofertas">Ver ofertas</a></div></div>
+<div class="hero-card"><div class="basket">🛒</div><div class="bubble b1">Precios especiales</div><div class="bubble b2">✓ Compra fácil</div></div>
+</div></section>
+
+<section><div class="container"><div class="head"><div><div class="kicker">Compra por departamento</div><h2>Encuentra lo que buscas</h2></div><p>La navegación por categorías toma como referencia tiendas de supermercado en línea que organizan productos por departamentos para facilitar la compra. citeturn0search0turn0search3</p></div>
+<div class="catgrid"><a class="cat" href="#productos"><span class="emoji">🥫</span>Abarrotes</a><a class="cat" href="#productos"><span class="emoji">🥛</span>Lácteos</a><a class="cat" href="#productos"><span class="emoji">🥤</span>Bebidas</a><a class="cat" href="#productos"><span class="emoji">🧹</span>Limpieza</a><a class="cat" href="#productos"><span class="emoji">🍪</span>Snacks</a><a class="cat" href="#productos"><span class="emoji">🧴</span>Higiene</a></div></div></section>
+
+<section id="productos"><div class="container"><div class="head"><div><div class="kicker">Catálogo</div><h2>Productos destacados</h2></div><p>Precios de ejemplo en lempiras. Sustituye estos datos por tu inventario real.</p></div>
+<div class="products">
+<article class="product"><div class="pic"><div class="box">🍚</div></div><div class="prodbody"><span class="tag">BÁSICO</span><h3>Arroz blanco 5 lb</h3><div class="brand">Abarrotes</div><div class="price">L 89.00</div><button class="btn primary" onclick="add('Arroz blanco 5 lb')">Agregar</button></div></article>
+<article class="product"><div class="pic" style="background:#fff4df"><div class="box">🥤</div></div><div class="prodbody"><span class="tag">OFERTA</span><h3>Refresco 2.5 L</h3><div class="brand">Bebidas</div><div class="price">L 52.00 <span class="old">L 60.00</span></div><button class="btn primary" onclick="add('Refresco 2.5 L')">Agregar</button></div></article>
+<article class="product"><div class="pic" style="background:#eef7ff"><div class="box">🥛</div></div><div class="prodbody"><span class="tag">FAMILIAR</span><h3>Leche entera 1 L</h3><div class="brand">Lácteos</div><div class="price">L 38.50</div><button class="btn primary" onclick="add('Leche entera 1 L')">Agregar</button></div></article>
+<article class="product"><div class="pic" style="background:#fff2f2"><div class="box">🧻</div></div><div class="prodbody"><span class="tag">AHORRO</span><h3>Papel higiénico 4 rollos</h3><div class="brand">Limpieza</div><div class="price">L 49.90 <span class="old">L 58.00</span></div><button class="btn primary" onclick="add('Papel higiénico 4 rollos')">Agregar</button></div></article>
+</div></div></section>
+
+<section class="deal" id="ofertas"><div class="container"><div class="dealgrid"><div><div class="kicker" style="color:#a7d77b">Promoción especial</div><h3>¡Semana de ahorro!</h3><p style="color:#c8d8cf">El contador es demostrativo y puede configurarse con cualquier fecha para una campaña de ofertas, una práctica habitual en sitios de grocery que destacan promociones y descuentos. citeturn0search5turn0search7</p><a href="#productos" class="btn outline">Comprar ofertas</a></div><div class="count"><div class="unit"><b id="d">00</b><small>Días</small></div><div class="unit"><b id="h">00</b><small>Horas</small></div><div class="unit"><b id="m">00</b><small>Minutos</small></div><div class="unit"><b id="s">00</b><small>Segundos</small></div></div></div></div></section>
+
+<section id="nosotros"><div class="container about"><div class="owner"><img src="Foto.png">
+
+    <div><div class="kicker">La creadora</div><h2>Una tienda hecha con dedicación.</h2><p><strong>Propietaria y creadora:</strong> administradora de La Esquina.</p><p>La idea de esta abarrotería es ofrecer un lugar cómodo y confiable para encontrar productos de uso diario, con atención amable y promociones que ayuden a las familias a cuidar su presupuesto.</p><p>La sección puede personalizarse con la historia real de la tienda, misión, visión, fecha de fundación y experiencia de la propietaria.</p><div class="actions"><a class="btn primary" href="#contacto">Conocer la tienda</a></div></div></div></section>
+
+<section class="brands" id="marcas"><div class="container"><div class="head"><div><div class="kicker">Proveedores</div><h2>Marcas proveedoras</h2></div><p>Listado de ejemplo para que el negocio pueda mostrar sus principales marcas y proveedores. Los nombres deben sustituirse por relaciones comerciales reales.</p></div>
+<div class="brandgrid"><div class="brand">Coca-Cola</div><div class="brand">Pepsi</div><div class="brand">Nestlé</div><div class="brand">Unilever</div><div class="brand">Procter & Gamble</div><div class="brand">Kellogg's</div><div class="brand">Colgate-Palmolive</div><div class="brand">Bimbo</div><div class="brand">Dos Pinos</div><div class="brand">Proveedor local</div></div></div></section>
+
+<section class="team" id="equipo"><div class="container"><div class="head"><div><div class="kicker">Nuestro equipo</div><h2>Empleados</h2></div><p>Perfiles demostrativos para presentar las funciones del personal.</p></div>
+<div class="teamgrid"><div class="employee"><div class="avatar">AD</div><h3>Administración</h3><div class="role">Dirección y compras</div><p>Supervisa proveedores, inventario, promociones y operación general.</p></div><div class="employee"><div class="avatar">AV</div><h3>Asesor/a de ventas</h3><div class="role">Atención al cliente</div><p>Apoya a los clientes y mantiene organizada el área de productos.</p></div><div class="employee"><div class="avatar">CJ</div><h3>Cajero/a</h3><div class="role">Caja y facturación</div><p>Registra compras, cobros, comprobantes y cierres de caja.</p></div><div class="employee"><div class="avatar">IN</div><h3>Inventario</h3><div class="role">Bodega y reposición</div><p>Controla existencias, recibe mercadería y repone estantes.</p></div></div></div></section>
+
+<section id="facturacion"><div class="container"><div class="head"><div><div class="kicker">Administración</div><h2>Proveedores y facturación</h2></div><p>Panel demostrativo para mostrar proveedores y crear una factura visual. No sustituye un sistema fiscal autorizado.</p></div>
+<div class="admin"><div class="panel"><h3>Registro de proveedores</h3><table><thead><tr><th>Proveedor</th><th>Categoría</th><th>Estado</th></tr></thead><tbody><tr><td>Distribuidora Central</td><td>Abarrotes</td><td>Activo</td></tr><tr><td>Proveedor de bebidas</td><td>Bebidas</td><td>Activo</td></tr><tr><td>Distribuidora de limpieza</td><td>Limpieza</td><td>Activo</td></tr><tr><td>Productor local</td><td>Frescos</td><td>Activo</td></tr></tbody></table></div>
+<div class="panel"><h3>Crear factura</h3><div class="form"><input id="cliente" placeholder="Cliente"><input id="rtn" placeholder="RTN / identificación"><select id="prod"><option value="89">Arroz blanco 5 lb — L 89.00</option><option value="52">Refresco 2.5 L — L 52.00</option><option value="38.5">Leche entera 1 L — L 38.50</option><option value="49.9">Papel higiénico 4 rollos — L 49.90</option></select><input id="cant" type="number" min="1" value="1"><input class="full" id="desc" type="number" min="0" max="100" value="0" placeholder="Descuento %"><button class="btn primary full" onclick="invoice()">Generar factura de demostración</button></div><div class="invoice" id="inv"></div></div></div></div></section>
+
+<section class="contact" id="contacto"><div class="container contactgrid"><div class="contactbox"><div class="kicker">Contacto</div><h3>Estamos cerca de ti.</h3><p>📍 Dirección de ejemplo, Tegucigalpa, Honduras</p><p>📞 +504 0000-0000<br>✉️ contacto@laesquina.hn</p><div class="actions"><a class="btn primary" href="mailto:contacto@laesquina.hn">Enviar correo</a><button class="btn outline" onclick="showToast('📞 Número de demostración: +504 0000-0000')">Contactar</button></div></div><div class="contactbox"><h3>Horario</h3><table><tr><td>Lunes–Sábado</td><td>7:00 AM–8:00 PM</td></tr><tr><td>Domingo</td><td>8:00 AM–2:00 PM</td></tr></table><p style="color:var(--muted);font-size:13px">Puedes añadir WhatsApp, redes sociales, mapa, políticas de entrega y métodos de pago.</p></div></div></section>
+</main>
+
+<footer><div class="foot"><div><div class="logo" style="color:#fff">La Esquina <span>+</span></div><p style="font-size:13px;color:#94a99d">Abarrotes, bebidas y productos para todos los días.</p></div><div><h4>Comprar</h4><a href="#productos">Productos</a><a href="#ofertas">Ofertas</a><a href="#marcas">Marcas</a></div><div><h4>Empresa</h4><a href="#nosotros">Creadora</a><a href="#equipo">Empleados</a><a href="#facturacion">Proveedores</a></div><div><h4>Ayuda</h4><a href="#contacto">Contacto</a><a href="#contacto">Horarios</a><a href="#contacto">Envíos</a></div></div><div class="copy">© 2026 La Esquina. Sitio demostrativo. Personaliza los datos antes de publicarlo.</div></footer>
+<div class="toast" id="toast"></div>
+<script>
+const end=Date.now()+4*86400000+8*3600000;
+function clock(){let x=Math.max(0,end-Date.now());let d=Math.floor(x/86400000);x%=86400000;let h=Math.floor(x/3600000);x%=3600000;let m=Math.floor(x/60000);let s=Math.floor(x%60000/1000);for(const [id,v] of [['d',d],['h',h],['m',m],['s',s]])document.getElementById(id).textContent=String(v).padStart(2,'0')}setInterval(clock,1000);clock();
+function showToast(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2500)}
+function add(n){showToast('🛒 '+n+' agregado al carrito')}
+function invoice(){let c=document.getElementById('cliente').value||'Cliente de demostración',r=document.getElementById('rtn').value||'No indicado',p=+document.getElementById('prod').value,q=Math.max(1,+document.getElementById('cant').value||1),d=Math.max(0,Math.min(100,+document.getElementById('desc').value||0)),total=p*q*(1-d/100),no='LE-'+Math.floor(100000+Math.random()*899999);let e=document.getElementById('inv');e.style.display='block';e.innerHTML='<b>FACTURA '+no+'</b><br>Cliente: '+c+' · RTN: '+r+'<br>Subtotal: L '+(p*q).toFixed(2)+' · Descuento: '+d+'%<br><strong>Total: L '+total.toFixed(2)+'</strong>';showToast('✅ Factura de demostración creada')}
+</script>
+</body></html>
